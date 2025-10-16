@@ -13,7 +13,7 @@ function App() {
     <>
       <Header/>
 
-    <div className='main'> 
+    <div className='main px-6'> 
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>

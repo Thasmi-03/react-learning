@@ -1,8 +1,13 @@
+import HomeCard from "../components/HomeCard";
+
 function Home(){
     return(
         <>
         <div className="main">
-            <h1>Home page</h1>
+          <HomeCard url={"about"}/>     
+          <HomeCard url={"contact"}/>        
+
+
         </div>
         </>
     )
