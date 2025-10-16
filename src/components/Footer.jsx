@@ -2,7 +2,7 @@ function Footer(){
     return(
         <>
         <div className="main">
-            <h1>thankyou</h1>
+            <h1>Footer Components</h1>
         </div>
         </>
     )
