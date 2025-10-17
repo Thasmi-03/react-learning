@@ -1,10 +1,9 @@
 import './App.css'
 import Footer from './components/Footer';
 import Header from './components/Header';
-import About from './pages/About';
-import Contact from './pages/contact';
 import Home from './pages/Home';
 import { Route, Routes } from 'react-router-dom';
+import NotFound from './pages/NotFound';
 
 
 function App() {
@@ -13,12 +12,10 @@ function App() {
     <>
       <Header/>
 
-    <div className='main px-6'> 
+    <div className=' m-6'> 
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-
+        <Route path='*' element={<NotFound/>} />
       </Routes>
     </div>
       <Footer/>

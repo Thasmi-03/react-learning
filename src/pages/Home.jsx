@@ -4,9 +4,14 @@ function Home(){
     return(
         <>
         <div className="main">
-          <HomeCard url={"about"}/>     
-          <HomeCard url={"contact"}/>  
-          <HomeCard url={"login"}/>            
+              <HomeCard url="introduction" />
+
+
+
+
+
+      
+
 
         </div>
         </>
